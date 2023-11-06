@@ -1,0 +1,46 @@
+print("Questão (1) em sala")
+
+codigo = float(input("digite o código de 1 a 4: "))
+
+if codigo == 1:
+print("pizza")
+elif codigo == 2:
+print("hamburguer")
+elif codigo == 3:
+print("refrigerante")
+elif codigo == 4:
+print("batata frita")
+else:
+print("código inválido")
+
+print("Questão (2) em sala")
+
+flamengo = float(input("digite o numero de gols do flamengo: "))
+vasco = float(input("digite o numero de gols do vasco: "))
+
+if flamengo > vasco:
+print("flamengo venceu")
+elif vasco > flamengo:
+print("vasco venceu")
+else:
+print("empate")
+
+print("Questão (3) em sala")
+
+codigo = float(input("digite o codigo requisitado: "))
+num1 = float(input("digite o num 1: "))
+num2 = float(input("digite o num 2: "))
+
+if codigo == 1:
+print((num1+num2)/2)
+elif codigo == 2:
+if num1 > num2:
+print(num1-num2)
+elif num2 > num1:
+print(num2 - num1)
+else:
+print("números iguais")
+elif codigo == 3:
+print(num1*num2)
+elif codigo == 4:
+print(
