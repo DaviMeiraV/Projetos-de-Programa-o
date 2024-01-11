@@ -1,4 +1,4 @@
-print("Questão (1) em sala")
+
 
 codigo = float(input("digite o código de 1 a 4: "))
 
@@ -13,7 +13,7 @@ print("batata frita")
 else:
 print("código inválido")
 
-print("Questão (2) em sala")
+
 
 flamengo = float(input("digite o numero de gols do flamengo: "))
 vasco = float(input("digite o numero de gols do vasco: "))
@@ -25,7 +25,7 @@ print("vasco venceu")
 else:
 print("empate")
 
-print("Questão (3) em sala")
+
 
 codigo = float(input("digite o codigo requisitado: "))
 num1 = float(input("digite o num 1: "))
